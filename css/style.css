@@ -12,25 +12,29 @@ body > nav > div > div.navbar-header > a.navbar-brand {
     color: white;
 }
 
-.intro {
-    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
-    color: white;
-    padding: 150px 0px;
-    margin-top: -20px;
-    min-height: 95vh;
-    
-}
 
 .about {
     background-color: #FF5722;
     color: white;
 }
-
-.intro img {
-    border-radius: 150px;
-    border: 5px solid white;
+.flex-container {
+    display: flex;
+    height: 100vh;
+    color: white;
+    margin-top: -20px;
 }
 
+.left-half {
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    flex: 1;
+    padding: 1rem;
+}
+
+.right-half {
+  background: url('/img/leanonme_large.jpg') center center;
+  flex: 1;
+  padding: 1rem;
+}
 .portfolio-item {
     margin: 10px 0px;
 }
@@ -91,7 +95,14 @@ hr.short
     margin: 25px auto 30px;    
 }
 
-.about-text {
+.left-half {
+    display: flex;
     font-size: 1.1em;
     font-weight: bolder;
+    align-items: center;
+}
+
+.about-text {
+    padding: 5%;
+    font-size: 24px;
 }
