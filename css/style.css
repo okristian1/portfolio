@@ -1,7 +1,7 @@
 
 
 .about {
-    background-color: #FF5722;
+    background-color: #2f3441;
     color: white;
 }
 
@@ -32,13 +32,16 @@
         display: none;
     }
 }
+
+
 .portfolio-item {
-    margin: 10px 0px;
+    padding: 25px;
+    background-color: aliceblue;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 .contact {
@@ -141,7 +144,7 @@ hr.short
 .profile-content h2 {
     margin-top: 8px;
     color: #616161;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .profile-content h4 {
