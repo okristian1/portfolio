@@ -34,9 +34,16 @@
 }
 
 
+.portfolio {
+    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    padding: 10px;    
+}
+
 .portfolio-item {
-    padding: 25px;
-    background-color: aliceblue;
+    padding: 1px;
+    border: 10px solid white;
+    background-color: black;
+    border-radius: 5px;
 }
 
 section {
@@ -46,7 +53,8 @@ section {
 
 .contact {
     box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    padding: 100px;
+    padding: 40px 100px 50px 100px;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -115,7 +123,8 @@ hr.short
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    
+
+
 }
 .top-bg {
     flex: 1;
