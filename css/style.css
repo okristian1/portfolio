@@ -37,16 +37,13 @@ object {
 }
 
 
-.portfolio {
-    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    padding: 10px;    
+.portfolio-item {
+    margin-top: 20px;
 }
 
-.portfolio-item {
-    padding: 1px;
-    border: 10px solid white;
-    background-color: black;
-    border-radius: 5px;
+.portfolio-item-inner {
+    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    outline: solid 3px black;
 }
 
 section {
