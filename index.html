@@ -23,15 +23,22 @@
   <div class="left-half">
       <div class="col-xs-10 center-block text-center">
     <article>
-        <h1>Hei!</h1>
+        <h1>Ole Kristian Skramstad</h1>
         <p class="lead">
-            Jeg heter Ole Kristian Skramstad og jeg synes det er artig å bygge nettsider. Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
+          Hei. Jeg er en selvlært programmerer med fokus på webutvikling.
+          Jeg er tilgjengelig for fast arbeid eller enkeltjobber.
         </p>
         <p class="lead">
-            Eksempler finner du nedenfor.
+        </p>
+          <a href="#contact-modal" data-toggle="modal" class="btn btn-lg btn-outline" id="contact-btn">
+        <i class="fa fa-envelope"> Ta kontakt</i>
+    </a>
+        <p class="lead">
+          <br />
+          Eller se eksempler på tidligere arbeid..
         </p>
           <button class="btn btn-lg btn-outline" id="portfolio-btn">
-        <i class="fa fa-arrow-down"></i>
+        <i class="fa fa-arrow-down"> Se prosjekter</i>
     </button>
       </article>
   </div>
@@ -187,7 +194,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 contact">
-        <h1>Noe du lurer på?</h1>
+              <h1>Ta gjerne kontakt for en uforpliktende prat</h1>
         <br>
       <form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
       <div class="form-group">
@@ -216,7 +223,7 @@
                   </h2>
                   <h4>Webutvikler</h4>
                   <p class="profile-text">
-      Jeg heter Ole Kristian Skramstad og jeg synes det er artig å bygge nettsider.
+      Jeg heter Ole Kristian Skramstad og synes det er artig å bygge nettsider.
       Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
                   </p>
                   <ul class="social-media text-center">
@@ -490,6 +497,76 @@
           </div>
       </div>
   </div>
+
+  <!-- Modal pomodoro -->
+
+<div class="portfolio-modal modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 contact">
+                <h1>Ta gjerne kontakt for en uforpliktende prat</h1>
+                <br>
+              <form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
+              <div class="form-group">
+                  <label for="email">E-post</label>
+                  <input name="email" type="email" class="form-control" id="epost" placeholder="Din e-post adresse">
+                </div>
+                <div class="form-group">
+                  <label for="navn">Navn</label>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Ditt navn">
+                </div>
+                <div class="form-group">
+                  <label for="message">Melding</label>
+                    <textarea name="message" type="text" class="form-control" rows="4" placeholder="Din Melding"></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="Send">
+              </form>
+            </div>
+              <div class="col-sm-4 col-xs-12">
+                  <div class="profile-container center-block">
+                  <div class="top-bg">
+                  <img class="profile-img-circle" src="img/leanonme.jpg">
+                  </div>
+                      <div class="profile-content text-left">
+                          <h2>
+                          Ole Kristian Skramstad
+                          </h2>
+                          <h4>Webutvikler</h4>
+                          <p class="profile-text">
+              Jeg heter Ole Kristian Skramstad og synes det er artig å bygge nettsider.
+              Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
+                          </p>
+                          <ul class="social-media text-center">
+                          <li>
+                              <i class="fa fa-mobile"></i>
+                              <p>990 44 221</p>
+                              </li>
+                          <li>
+                              <i class="fa fa-envelope-o"></i>
+                              <p>okristian1@gmail.com</p>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
+            </div>
+          </div>
+        </section>
+    </div>
+</div>
+
+
+
+
 
 
 
