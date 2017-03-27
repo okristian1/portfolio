@@ -1,7 +1,4 @@
 
-
-
-
 .flex-container {
     display: flex;
     height: 100vh;
@@ -44,6 +41,10 @@ object {
 .portfolio-item-inner {
     box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
     outline: solid 3px black;
+}
+
+.portfolio-item-inner:hover {
+  opacity: 0.8;
 }
 
 section {
@@ -200,4 +201,3 @@ ul.social-media li {
     white-space: nowrap;
     font-size: 33;
 }
-

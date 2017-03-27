@@ -30,9 +30,9 @@
         <p class="lead">
             Eksempler finner du nedenfor.
         </p>
-          <a href="#portfolio" class="btn btn-lg btn-outline">
+          <button class="btn btn-lg btn-outline" id="portfolio-btn">
         <i class="fa fa-arrow-down"></i>
-    </a>
+    </button>
       </article>
   </div>
 </div>
@@ -43,11 +43,11 @@
 
 <!-- portfolio -->
           <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio-container">
       <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portefølje</h2>
+                    <h2 id="portfolio">Portefølje</h2>
                     <hr>
                 </div>
             </div>
@@ -107,6 +107,18 @@
                     </a>
                 </div>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-item-inner">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                            </div>
+                        </div>
+                        <img src="img/portfolio-items/pomo_thumb.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -177,54 +189,52 @@
             <div class="col-sm-6 contact">
         <h1>Noe du lurer på?</h1>
         <br>
-<form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
-<div class="form-group">
-    <label for="email">E-post</label>
-    <input name="email" type="email" class="form-control" id="epost" placeholder="Din e-post adresse">
-  </div>
-  <div class="form-group">
-    <label for="navn">Navn</label>
-    <input name="name" type="text" class="form-control" id="name" placeholder="Ditt navn">
-  </div>
-  <div class="form-group">
-    <label for="message">Melding</label>
-      <textarea name="message" type="text" class="form-control" rows="4" placeholder="Din Melding"></textarea>
-  </div>
-  <input type="submit" class="btn btn-default" value="Send">
-</form>
-</div>
-
-            <div class="col-sm-4 col-xs-12">
-                <div class="profile-container center-block">
-                <div class="top-bg">
-                <img class="profile-img-circle" src="img/leanonme.jpg">
-                </div>
-                    <div class="profile-content text-left">
-                        <h2>
-                        Ole Kristian Skramstad
-                        </h2>
-                        <h4>Webutvikler</h4>
-                        <p class="profile-text">
-            Jeg heter Ole Kristian Skramstad og jeg synes det er artig å bygge nettsider.
-            Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
-                        </p>
-                        <ul class="social-media text-center">
-                        <li>
-                            <i class="fa fa-mobile"></i>
-                            <p>990 44 221</p>
-                            </li>
-                        <li>
-                            <i class="fa fa-envelope-o"></i>
-                            <p>okristian1@gmail.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                        </div>
-            </div>
-
+      <form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
+      <div class="form-group">
+          <label for="email">E-post</label>
+          <input name="email" type="email" class="form-control" id="epost" placeholder="Din e-post adresse">
         </div>
+        <div class="form-group">
+          <label for="navn">Navn</label>
+          <input name="name" type="text" class="form-control" id="name" placeholder="Ditt navn">
         </div>
-        </section>
+        <div class="form-group">
+          <label for="message">Melding</label>
+            <textarea name="message" type="text" class="form-control" rows="4" placeholder="Din Melding"></textarea>
+        </div>
+        <input type="submit" class="btn btn-default" value="Send">
+      </form>
+    </div>
+      <div class="col-sm-4 col-xs-12">
+          <div class="profile-container center-block">
+          <div class="top-bg">
+          <img class="profile-img-circle" src="img/leanonme.jpg">
+          </div>
+              <div class="profile-content text-left">
+                  <h2>
+                  Ole Kristian Skramstad
+                  </h2>
+                  <h4>Webutvikler</h4>
+                  <p class="profile-text">
+      Jeg heter Ole Kristian Skramstad og jeg synes det er artig å bygge nettsider.
+      Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
+                  </p>
+                  <ul class="social-media text-center">
+                  <li>
+                      <i class="fa fa-mobile"></i>
+                      <p>990 44 221</p>
+                      </li>
+                  <li>
+                      <i class="fa fa-envelope-o"></i>
+                      <p>okristian1@gmail.com</p>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
    <!-- Footer -->
@@ -237,19 +247,13 @@
                     <div class="footer-col col-md-4">
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/olekristian.skramstad" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://github.com/okristian1/" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.linkedin.com/in/ole-kristian-skramstad-a91330a5/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -449,11 +453,49 @@
         </div>
     </div>
 
+    <!-- Modal pomodoro -->
+
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-lg-offset-3">
+                      <div class="modal-body">
+                          <h2 class="text-center">Bordfinneren</h2>
+                          <img src="img/portfolio-items/pomo_thumb.png" class="img-responsive img-centered portfolio-item-inner" alt="">
+                          <ul class="list-group">
+                          <hr>
+                              <li class="list-group-item">Kunde:
+                                  <strong>Selvlæring</strong>
+                              </li>
+                              <li class="list-group-item">Dato:
+                                  <strong>2017</strong>
+                              </li>
+                              <li class="list-group-item">Beskrivelse:
+                              <strong>Timerfunksjon</strong>
+                              </li>
+                          </ul>
+                                  <a class="btn btn-success" href="https://okristian1.github.io/pomodoro">Nettside</a>
+                          <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
+                          <hr>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
