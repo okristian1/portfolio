@@ -8,8 +8,7 @@
     <title>Ole Kristian Skramstad</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!-- devicons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
@@ -25,20 +24,12 @@
     <article>
         <h1>Ole Kristian Skramstad</h1>
         <p class="lead">
-          Hei. Jeg er en selvlært programmerer med fokus på webutvikling.
+          Hei. <br />Jeg er en selvlært programmerer med fokus på webutvikling.
           Jeg er tilgjengelig for fast arbeid eller enkeltjobber.
         </p>
-        <p class="lead">
-        </p>
-          <a href="#contact-modal" data-toggle="modal" class="btn btn-lg btn-outline" id="contact-btn">
-        <i class="fa fa-envelope"> Ta kontakt</i>
-    </a>
-        <p class="lead">
           <br />
-          Eller se eksempler på tidligere arbeid..
-        </p>
-          <button class="btn btn-lg btn-outline" id="portfolio-btn">
-        <i class="fa fa-arrow-down"> Se prosjekter</i>
+          <button class="btn-outline" id="portfolio-btn">
+        <i class="fa fa-arrow-down"></i> Se prosjekter
     </button>
       </article>
   </div>
@@ -147,6 +138,17 @@
                     </a>
                 </div>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                <div class="portfolio-item-inner">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                            </div>
+                        </div>
+                        <img src="img/portfolio-items/gitbattle_thumb.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                </div>
 
             </div>
         </div>
@@ -216,7 +218,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 contact">
-              <h1>Kontakt meg</h1>
+              <h1 class="text-center">Kontakt</h1>
         <br>
       <form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
       <div class="form-group">
@@ -237,7 +239,7 @@
       <div class="col-sm-4 col-xs-12">
           <div class="profile-container center-block">
           <div class="top-bg">
-          <img class="profile-img-circle" src="img/leanonme.jpg">
+          <img class="profile-img-circle" src="img/tinylog.jpg">
           </div>
               <div class="profile-content text-left">
                   <h2>
@@ -294,7 +296,7 @@
     </footer>
 
 
-<!-- Modal smnkonferanse -->
+<!-- Modals-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -322,7 +324,7 @@
                                 <li class="list-group-item">Beskrivelse: <strong> Hjemmeside for konferansesenteret i SpareBank 1 SMN</strong>
                                 </li>
                             </ul>
-                                    <a class="btn btn-success" href="http://smnkonferanse.no">Nettside</a>
+                                    <a class="btn btn-success" href="http://smnkonferanse.no" target="_blank">Nettside</a>
                             <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                             <hr>
                         </div>
@@ -359,7 +361,7 @@
                                 Beskrivelse: <strong>Hjemmeside for atferdskonsulent</strong>
                                 </li>
                             </ul>
-                                    <a class="btn btn-success" href="http://happy-tails.no">Nettside</a>
+                                    <a class="btn btn-success" href="http://happy-tails.no" target="_blank">Nettside</a>
                             <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                             <hr>
                         </div>
@@ -396,7 +398,7 @@
                                 <strong>Webapp som viser dagens vær på din lokasjon</strong>
                                 </li>
                             </ul>
-                                    <a class="btn btn-success" href="https://okristian1.github.io/weatherapp/">Nettside</a>
+                                    <a class="btn btn-success" href="https://okristian1.github.io/weatherapp/" target="_blank">Nettside</a>
                             <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                             <hr>
                         </div>
@@ -434,8 +436,8 @@
                                 <strong>Viser oversikt over dagens møter</strong>
                                 </li>
                             </ul>
-                                    <a class="btn btn-success" href="http://smn-info.herokuapp.com/">Nettside</a>
-                            <button type="button" class="btn btn-default pull-right portfolio-item-inner" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
+                                    <a class="btn btn-success" href="http://smn-info.herokuapp.com/" target="_blank">Nettside</a>
+                            <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                             <hr>
                         </div>
                     </div>
@@ -472,7 +474,7 @@
                                 <strong>Nettside som viser restauranter med ledig bord</strong>
                                 </li>
                             </ul>
-                                    <a class="btn btn-success" href="http://bordfinneren.no">Nettside</a>
+                                    <a class="btn btn-success" href="#">Nettsiden er for tiden ikke aktiv</a>
                             <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                             <hr>
                         </div>
@@ -481,8 +483,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Modal pomodoro -->
 
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
@@ -510,7 +510,7 @@
                               <strong>Timerfunksjon</strong>
                               </li>
                           </ul>
-                                  <a class="btn btn-success" href="https://okristian1.github.io/pomodoro">Nettside</a>
+                                  <a class="btn btn-success" href="https://okristian1.github.io/pomodoro" target="_blank">Nettside</a>
                           <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                           <hr>
                       </div>
@@ -546,7 +546,7 @@
                               <strong>Tit-tac-toe</strong>
                               </li>
                           </ul>
-                            <a class="btn btn-success" href="https://okristian1.github.io/tic-tac-toe">Nettside</a>
+                            <a class="btn btn-success" href="https://okristian1.github.io/tic-tac-toe" target="_blank">Nettside</a>
                           <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                           <hr>
                       </div>
@@ -582,7 +582,7 @@
                               <strong>Simon game</strong>
                               </li>
                           </ul>
-                            <a class="btn btn-success" href="https://okristian1.github.io/simon">Nettside</a>
+                            <a class="btn btn-success" href="https://okristian1.github.io/simon" target="_blank">Nettside</a>
                           <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
                           <hr>
                       </div>
@@ -592,76 +592,41 @@
       </div>
   </div>
 
-  <!-- Modal pomodoro -->
-
-<div class="portfolio-modal modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 contact">
-                <h1>Ta gjerne kontakt for en uforpliktende prat</h1>
-                <br>
-              <form id="" method="POST" action="https://formspree.io/okristian1@gmail.com">
-              <div class="form-group">
-                  <label for="email">E-post</label>
-                  <input name="email" type="email" class="form-control" id="epost" placeholder="Din e-post adresse">
-                </div>
-                <div class="form-group">
-                  <label for="navn">Navn</label>
-                  <input name="name" type="text" class="form-control" id="name" placeholder="Ditt navn">
-                </div>
-                <div class="form-group">
-                  <label for="message">Melding</label>
-                    <textarea name="message" type="text" class="form-control" rows="4" placeholder="Din Melding"></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Send">
-              </form>
-            </div>
-              <div class="col-sm-4 col-xs-12">
-                  <div class="profile-container center-block">
-                  <div class="top-bg">
-                  <img class="profile-img-circle" src="img/leanonme.jpg">
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
                   </div>
-                      <div class="profile-content text-left">
-                          <h2>
-                          Ole Kristian Skramstad
-                          </h2>
-                          <h4>Webutvikler</h4>
-                          <p class="profile-text">
-              Jeg heter Ole Kristian Skramstad og synes det er artig å bygge nettsider.
-              Hvis du vil jeg skal lage en for deg er det bare å ta kontakt.
-                          </p>
-                          <ul class="social-media text-center">
-                          <li>
-                              <i class="fa fa-mobile"></i>
-                              <p>990 44 221</p>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-lg-offset-3">
+                      <div class="modal-body">
+                          <h2 class="text-center">Github Battle</h2>
+                          <img src="img/portfolio-items/gitbattle_thumb.png" class="img-responsive img-centered portfolio-item-inner" alt="">
+                          <ul class="list-group">
+                          <hr>
+                              <li class="list-group-item">Kunde:
+                                  <strong>Selvlæring</strong>
                               </li>
-                          <li>
-                              <i class="fa fa-envelope-o"></i>
-                              <p>okristian1@gmail.com</p>
+                              <li class="list-group-item">Dato:
+                                  <strong>2017</strong>
+                              </li>
+                              <li class="list-group-item">Beskrivelse:
+                              <strong>React Fundamentals Tutorial</strong>
                               </li>
                           </ul>
+                            <a class="btn btn-success" href="http://207.154.204.157" target="_blank">Nettside</a>
+                          <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
+                          <hr>
                       </div>
                   </div>
               </div>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Lukk</button>
-            </div>
           </div>
-        </section>
-    </div>
-</div>
-
-
-
-
-
+      </div>
+  </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
